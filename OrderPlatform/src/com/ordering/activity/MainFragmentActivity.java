@@ -19,7 +19,8 @@ public class MainFragmentActivity extends BaseSlingActivity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-
+		
+		getActionBar().hide();
 		// set the Above View
 		setContentView(R.layout.activity_main_fragment);
 		getSupportFragmentManager()

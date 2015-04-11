@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class HomeFragment extends BaseFragment {
 
-	View view;
+	private View view;
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
