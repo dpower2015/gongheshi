@@ -5,7 +5,7 @@ import android.os.Bundle;
 import com.ordering.fragment.MainFragment;
 import com.ordering.platform.R;
 import com.ordering.slidinglib.BaseSlingActivity;
-
+//
 /**
  * @author ZhengZhiying<br>
  * @function  主页面

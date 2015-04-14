@@ -16,8 +16,8 @@ public class BrandFragment extends BaseFragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		view = inflater.inflate(R.layout.fragment_home, container,false);
-		TextView textView1 = (TextView) view.findViewById(R.id.textView1);
-		textView1.setText("品牌");
+		//TextView textView1 = (TextView) view.findViewById(R.id.textView1);
+		//textView1.setText("品牌");
 		return view;
 	}
 }

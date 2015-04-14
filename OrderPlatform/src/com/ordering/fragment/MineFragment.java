@@ -16,8 +16,8 @@ public class MineFragment extends BaseFragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		view = inflater.inflate(R.layout.fragment_home, container,false);
-		TextView textView1 = (TextView) view.findViewById(R.id.textView1);
-		textView1.setText("我的");
+		//TextView textView1 = (TextView) view.findViewById(R.id.textView1);
+		//textView1.setText("我的");
 		return view;
 	}
 }
