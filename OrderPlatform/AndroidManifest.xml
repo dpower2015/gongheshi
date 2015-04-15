@@ -24,6 +24,7 @@
         </activity>
         <activity android:name="com.ordering.activity.LoginActivity" />
         <activity android:name="com.ordering.activity.MainFragmentActivity" />
+        <activity android:name="com.ordering.activity.RegisterActivity" />
     </application>
 
 </manifest>

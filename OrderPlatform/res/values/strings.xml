@@ -13,4 +13,15 @@
 	<string name="face_class">面材类</string>
 	<string name="light_class">照明材料</string>
 	<string name="decorate_class">陈设材料</string>
+	<string name="user_register">用户注册</string>
+	<string name="user_name">用户名</string>
+	<string name="password">密码</string>
+	<string name="phone_number">联系电话</string>
+	<string name="company_belong">所属公司</string>
+	<string name="my_zone">我的空间</string>
+	<string name="my_collect">我的收藏</string>
+	<string name="my_order">我的订单</string>
+	<string name="change_password">修改密码</string>
+	<string name="change_image">修改头像</string>
+	<string name="copyright">版权声明</string>
 </resources>

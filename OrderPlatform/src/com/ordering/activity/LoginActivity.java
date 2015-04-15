@@ -1,13 +1,11 @@
 package com.ordering.activity;
 
-import java.net.ContentHandler;
-
-import com.ordering.platform.R;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.ordering.platform.R;
 
 /**
  * @author ZhengZhiying<br>
@@ -23,6 +21,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener{
 		setContentView(R.layout.activity_login);
 		context = this;
 		findViewById(R.id.btn_login).setOnClickListener(this);
+		findViewById(R.id.btn_register).setOnClickListener(this);
 	}
 	
 	@Override
@@ -32,7 +31,9 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener{
 			startActivity(new Intent(context,MainFragmentActivity.class));
 			finish();
 			break;
-
+		case R.id.btn_register:
+			startActivity(new Intent(context,RegisterActivity.class));
+			break;
 		default:
 			break;
 		}
