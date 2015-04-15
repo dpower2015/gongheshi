@@ -18,6 +18,9 @@ public class MineFragment extends BaseFragment {
 		view = inflater.inflate(R.layout.fragment_mine, container,false);
 		TextView textView1 = (TextView) view.findViewById(R.id.textView1);
 		textView1.setText("我的");
+//		view = inflater.inflate(R.layout.fragment_home, container,false);
+		//TextView textView1 = (TextView) view.findViewById(R.id.textView1);
+		//textView1.setText("我的");
 		return view;
 	}
 }

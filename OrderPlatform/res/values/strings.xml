@@ -24,4 +24,17 @@
 	<string name="change_password">修改密码</string>
 	<string name="change_image">修改头像</string>
 	<string name="copyright">版权声明</string>
+	<string name="muzuo">木作</string>
+	<string name="mianliao">面料</string>
+	<string name="weiyu">卫浴</string>
+	<string name="chenshe">陈设</string>
+	<string name="more">更多</string>
+	<string name="furniture">家具</string>
+	<string name="light_tool">灯具</string>
+	<string name="custom_made">定制</string>
+	<string name="building_material">建材</string>
+	<string name="brand_class">品牌</string>
+	<string name="sale_product">促销产品</string>
+	<string name="hot_product">热卖产品</string>
+	<string name="class_search">类别搜索</string>
 </resources>

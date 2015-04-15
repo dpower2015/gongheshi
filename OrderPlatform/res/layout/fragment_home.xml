@@ -2,12 +2,190 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#11000000"
     android:orientation="vertical" >
-<TextView
-            android:id="@+id/textView1"
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_zone"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/slibe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/my_zone"
-            android:textSize="25sp" />
+            android:src="@drawable/slibe" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/search_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/search_product" />
+
+            <EditText
+                android:id="@+id/search_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:focusable="false"
+                android:hint="@string/left_menu_hint" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/hongse"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/muzuo_id"
+            style="@style/item_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white_nor"
+            android:padding="5dp"
+            android:text="@string/muzuo" />
+
+        <TextView
+            android:id="@+id/mianliao_id"
+            style="@style/item_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white_nor"
+            android:padding="5dp"
+            android:text="@string/mianliao" />
+
+        <TextView
+            android:id="@+id/weiyu_id"
+            style="@style/item_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white_nor"
+            android:padding="5dp"
+            android:text="@string/weiyu" />
+
+        <TextView
+            android:id="@+id/chenshe_id"
+            style="@style/item_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white_nor"
+            android:padding="5dp"
+            android:text="@string/chenshe" />
+
+        <TextView
+            android:id="@+id/more_id"
+            style="@style/item_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white_nor"
+            android:padding="5dp"
+            android:text="@string/more" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/merchant_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:horizontalSpacing="@dimen/kaka_5_dip"
+        android:numColumns="5"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/kaka_5_dip" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/hongse"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/sale_product_id"
+            style="@style/item_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white_nor"
+            android:padding="5dp"
+            android:text="@string/sale_product" />
+
+        <TextView
+            android:id="@+id/hot_product_id"
+            style="@style/item_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white_nor"
+            android:padding="5dp"
+            android:text="@string/hot_product" />
+
+        <TextView
+            android:id="@+id/class_search_id"
+            style="@style/item_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white_nor"
+            android:padding="5dp"
+            android:text="@string/class_search" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/activities_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </ListView>
+
 </LinearLayout>
