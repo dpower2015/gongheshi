@@ -22,8 +22,6 @@ public class HomeFragment extends BaseFragment {
 		mBussinesList=(GridView)view.findViewById(R.id.merchant_list);
 		mBussinesListAdapter=new BussinessGridViewAdapter(getActivity());
 		mBussinesList.setAdapter(mBussinesListAdapter);
-		//TextView textView1 = (TextView) view.findViewById(R.id.textView1);
-		//textView1.setText("首页");
 		return view;
 	}
 }
