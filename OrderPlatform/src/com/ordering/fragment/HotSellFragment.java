@@ -15,7 +15,7 @@ public class HotSellFragment extends BaseFragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		view = inflater.inflate(R.layout.fragment_home, container,false);
+		view = inflater.inflate(R.layout.fragment_hotsell, container,false);
 		//TextView textView1 = (TextView) view.findViewById(R.id.textView1);
 		//textView1.setText("热销");
 		return view;

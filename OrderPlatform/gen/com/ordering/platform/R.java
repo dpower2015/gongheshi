@@ -754,14 +754,16 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int activity_main_fragment=0x7f030002;
         public static final int activity_register=0x7f030003;
         public static final int bussiness_gridview=0x7f030004;
-        public static final int fragment_home=0x7f030005;
-        public static final int fragment_left_menu=0x7f030006;
-        public static final int fragment_main=0x7f030007;
-        public static final int fragment_mine=0x7f030008;
-        public static final int item_left_menu=0x7f030009;
-        public static final int menu_frame=0x7f03000a;
-        public static final int row=0x7f03000b;
-        public static final int slidingmenumain=0x7f03000c;
+        public static final int fragment_brand=0x7f030005;
+        public static final int fragment_home=0x7f030006;
+        public static final int fragment_hotsell=0x7f030007;
+        public static final int fragment_left_menu=0x7f030008;
+        public static final int fragment_main=0x7f030009;
+        public static final int fragment_mine=0x7f03000a;
+        public static final int item_left_menu=0x7f03000b;
+        public static final int menu_frame=0x7f03000c;
+        public static final int row=0x7f03000d;
+        public static final int slidingmenumain=0x7f03000e;
     }
     public static final class string {
         public static final int all=0x7f080004;
